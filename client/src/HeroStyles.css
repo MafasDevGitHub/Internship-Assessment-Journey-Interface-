@@ -1,0 +1,32 @@
+
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top, #091540, #023e8a);
+    text-align: center;
+    color: white;
+}  
+
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.connetcbtn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background: #ff3366;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.connetcbtn:hover{
+    background: #cc2952
+}
